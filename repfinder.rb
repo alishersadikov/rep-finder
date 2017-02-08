@@ -1,6 +1,8 @@
 require './parser'
 require './attendee'
 require './fetcher'
+require 'congress'
+
 require 'pry'
 
 class Repfinder

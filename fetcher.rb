@@ -1,9 +1,11 @@
-require 'congress'
-client = Congress::Client.new("fake_key:)")
+# client = Congress::Client.new("fake_key:)")
 
 class Fetcher
+  attr_reader :attendees
+
   def initialize(collection)
-    binding.pry
+    @attendees = collection
   end
+
 
 end
